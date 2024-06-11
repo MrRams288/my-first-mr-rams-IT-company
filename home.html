@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+
+<head>
+ <link rel="stylesheet" href="homestyle.css">
+<p><h1>Mr Rams</h1></p>
+
+</head>
+<body>
+<div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="contuctpage.html">Contact</a>
+    <a href="aboutpage.html">About</a>
+</div>
+
+
+     
+  <!-- The App Section -->
+<div class="container">
+    <div class="row">
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>Mr Rams</b></h1>
+        <p><span style="font-size:36px"> Mr Rams is an IT company established in 2015, it is a leading IT support and Managed IT services provider. Our pioneering technology solutions cater to organizations of all sizes and industries.</p>
+        
+      </div>
+      <div class="column-33">
+          <img src="mrrams.jpg" width="335" height="471">
+      </div>
+    </div>
+  </div>
+  
+  <!-- Clarity Section -->
+  <div class="container" style="background-color:#f1f1f1">
+    <div class="row">
+      <div class="column-33">
+        <img src="mrrams.jpg" alt="App" width="335" height="471">
+      </div>
+      <div class="column-66">
+        <h1 class="xlarge-font"><b>Our Services</b></h1>
+        <h1 class="large-font" style="color:red;"><b> Here’s what we offer:</b></h1>
+        <p><span style="font-size:24px">IT Support and Managed Services</span></p>
+        <a href="readmorepage.html">Read More</a>
+        <p><span style="font-size:24px">Web Application Development</span></p>
+        <a href="readmorepage.html">Read More</a>        <p><span style="font-size:24px">Cloud-Native Application Development</span></p>
+        <a href="readmorepage.html">Read More</a>        <p><span style="font-size:24px">Software QA and Testing</span></p>
+        <a href="readmorepage.html">Read More</a>        <p><span style="font-size:24px">Dev Ops</span></p>
+        <a href="readmorepage.html">Read More</a>      </div>
+    </div>
+  </div>
+  
+  <!-- The App Section -->
+
+  <style>
+    /* Reset default styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Footer styles */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Contact form styles */
+    .contact-form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form select,
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    .contact-form input[type="submit"] {
+        background-color: #04AA6D;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .contact-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+  <footer>
+    <div class="contact-form">
+        <h3>Get in Touch</h3>
+        <p>Swing by for a cup of coffee, or leave us a message:</p>
+        <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</footer>
+  
+
+</body>
+
+
+
+</html>
